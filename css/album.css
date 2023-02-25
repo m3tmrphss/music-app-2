@@ -1,0 +1,34 @@
+body {
+    background-color: #191918;
+    color: white;
+}
+.card {
+    background-color: #191918;
+    border: 1px dotted white;
+    border-radius: 10px; 
+    padding: 10px;
+}
+.list-group-item {
+    background-color: #191918;
+
+}
+.me-3 {
+    height: auto;
+    width: 50px;
+}
+.list-group-item:hover {
+    background-color: rgb(37, 37, 37);
+}
+@media (max-width: 576px) {
+    *,
+    *::before,
+    *::after {
+        box-sizing: content-box;
+    }
+    .card {
+        width: 200%;
+    }
+    .list-group-item {
+        width:140%;
+    }
+}

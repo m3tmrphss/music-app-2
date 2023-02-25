@@ -1,0 +1,49 @@
+.logo-text {
+    font-size: 24px;
+    font-weight: 600;
+
+    color: white;
+}
+header .nav-link {
+    color: grey;
+    margin-right: 50px;
+}
+header .nav-link:hover {
+    color: rgb(235, 206, 81)
+}
+header .nav-link:focus {
+    color: rgb(235, 206, 81);
+}
+.plus-badge {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(101.67deg,#48cce0 7.24%,#505add 34.12%,#be40c0 62.93%,#fba82b 92.22%);
+    height: 24px;
+    border-radius: 24px;
+    padding: 0 8px;
+    cursor: pointer;
+    line-height: 14px;
+}
+.form-control {
+    width: 300px;
+    background-color: #191918;
+    border-radius: 10px;
+    border:1px solid grey;
+}
+.form-control::placeholder {
+    color:grey;
+}
+.form-control:focus{
+    background-color: #191918;
+    border: 1px solid grey;
+}
+.dropdown-menu {
+    background-color: #222222;
+}
+.dropdown-item {
+    color: grey;
+}
+.dropdown-item:hover {
+    color: rgb(235, 206, 81);
+    background-color: #222222;
+}
